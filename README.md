@@ -2,12 +2,31 @@
 
 [Omarchy](https://omarchy.org/)'s stock **Hackerman** theme — near-black
 navy background, neon-green accent — with a **full-colour terminal
-palette**. Hackerman maps every ANSI colour to a shade of green, so
-`eza`/`ls`, `git diff` and syntax highlighting come out green-on-green.
-Hackerboy keeps the look and gives red, yellow, orange, blue, magenta
-and brown real hues, so colour separates meaning again.
+palette**, so `eza`/`ls`, `git`, syntax highlighting and TUIs read in
+real colour instead of green-on-green.
 
 ![Hackerboy — btop and LazyVim on the theme's Milky Way wallpaper](screenshot.webp)
+
+## Why
+
+Hackerman looks great as a desktop: dark navy, neon-green borders, a
+green bar. In the terminal the same idea works against it. Every ANSI
+slot is a shade of green or pale blue-green — "red" is `#50f872`,
+"yellow" is `#50f7d4` — so anything that uses colour to carry meaning
+loses it:
+
+- `eza`/`ls` listings: directories, executables, symlinks, permissions
+  and dates all come out the same green.
+- `git diff`: added and removed lines are both green.
+- Errors and warnings don't stand out from normal output.
+- Syntax highlighting and TUIs like btop collapse to one hue.
+
+Hackerboy keeps everything that makes Hackerman look the way it does —
+background, foreground, the green accent, green and cyan — and replaces
+only the slots that were green stand-ins with the hues their names
+promise. Red is red, yellow is yellow, blue is blue. They're bright,
+slightly neon tones chosen to sit on the near-black navy without
+clashing with the green.
 
 - `background = #0B0C16`, `foreground = #ddf7ff`, `accent = #82FB9C`
   (all unchanged from Hackerman, as are green and cyan)
