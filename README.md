@@ -30,6 +30,8 @@ promise. Red is red, yellow is yellow, blue is blue. They're bright,
 slightly neon tones chosen to sit on the near-black navy without
 clashing with the green.
 
+![Hackerboy — eza listings of this repo: blue directories, yellow user, red/yellow/green permissions, magenta images](screenshot-eza.webp)
+
 - `background = #0B0C16`, `foreground = #ddf7ff`, `accent = #82FB9C`
   (all unchanged from Hackerman, as are green and cyan)
 - New hues: `red #ff5f7a`, `yellow #f7d450`, `orange #ffa057`,
