@@ -7,6 +7,8 @@ palette**. Hackerman maps every ANSI colour to a shade of green, so
 Hackerboy keeps the look and gives red, yellow, orange, blue, magenta
 and brown real hues, so colour separates meaning again.
 
+![Hackerboy — btop and LazyVim on the theme's Milky Way wallpaper](screenshot.webp)
+
 - `background = #0B0C16`, `foreground = #ddf7ff`, `accent = #82FB9C`
   (all unchanged from Hackerman, as are green and cyan)
 - New hues: `red #ff5f7a`, `yellow #f7d450`, `orange #ffa057`,
