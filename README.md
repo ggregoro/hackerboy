@@ -7,6 +7,8 @@ real colour instead of green-on-green.
 
 ![Hackerboy — btop and LazyVim on the theme's Milky Way wallpaper](screenshot.webp)
 
+![Hackerboy — the bar over the bundled glowing-city wallpaper](screenshot-wallpaper.webp)
+
 ## Why
 
 Hackerman looks great as a desktop: dark navy, neon-green borders, a
